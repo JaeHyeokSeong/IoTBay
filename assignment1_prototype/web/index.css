@@ -22,6 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  font-family: Arial;
 }
 
 header h1 {
