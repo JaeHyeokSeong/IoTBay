@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <header>
-      <h1>My Website</h1>
+      <h1>IoT Devices Ordering Application</h1>
       <nav>
         <ul>
           <%
@@ -40,18 +40,4 @@
         </ul>
       </nav>
     </header>
-    
-<!--    <main>
-      <section class="login-section">
-        <h2>Login</h2>
-        <form>
-          <label for="username">Username:</label>
-          <input type="text" id="username" name="username" required>
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
-          <button type="submit">Login</button>
-        </form>
-        <p>Don't have an account? <a href="register.html">Register</a></p>
-      </section>
-    </main>-->
 </html>

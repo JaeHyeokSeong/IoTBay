@@ -16,7 +16,7 @@
       <div class="container">
       <h1>Login</h1>
       <form action="loginController.jsp" method="post">
-        <label for="username">email:</label>
+        <label for="username">Email:</label>
         <input type="text" id="username" name="email" required>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>

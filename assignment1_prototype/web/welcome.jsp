@@ -11,6 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Welcome Page</title>
+        <link rel="stylesheet" type="text/css" href="welcome.css">
     </head>
     
     <%
@@ -24,12 +25,31 @@
     %>
     <body>
         <h1>Welcome</h1>
-        <p>name: <%= name%></p>
-        <p>email: <%= email%></p>
-        <p>password: <%= password%></p>
-        <p>phone number: <%= phoneNumber%></p>
         
-        <a href="index.jsp">Main Page</a>
-        <a href="login.jsp">Login Page</a>
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><%= name%></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><%= email%></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><%= password%></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><%= phoneNumber%></td>
+            </tr>
+        </table>
+        
+        <a href="index.jsp" class="button">Main Page</a>
+        <a href="login.jsp" class="button">Login Page</a>
     </body>
 </html>

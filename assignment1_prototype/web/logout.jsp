@@ -12,10 +12,10 @@
         <title>Logout Page</title>
     </head>
     <body>
-        <h1>logout success</h1>
         <%
             session.invalidate();
         %>
-        <a href="index.jsp">Main Page</a>
+        Response.Write("<script>alert('Logout Success');</script>");
+        Response.Write("<script>location.href='./index.jsp';</script>");
     </body>
 </html>
